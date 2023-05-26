@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        @apply bg-gray-50 dark:bg-black;
+    }
+} 
+
+@layer components {
+    .hoverEffect {
+        @apply hover:bg-[#eff3f4] dark:hover:bg-[#181818] rounded-full cursor-pointer duration-300
+    }
+}
+
+ /* body{
+    background-color: #eee;
+    color: #222;
+    text-decoration: #222;
+}
+
+body.dark{
+    background-color: #222;
+    color: #fff;
+    text-decoration: white;
+}   */
